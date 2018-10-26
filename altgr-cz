@@ -1,0 +1,27 @@
+partial alphanumeric_keys
+xkb_symbols "altgr-cz" {
+
+  name[Group1]= "English (czech with AltGr dead keys)";
+
+  include "us(basic)"
+  include "eurosign(5)"
+  include "level3(ralt_switch)"
+
+  key <AD03> { [ e, E, eacute, Eacute ] };
+  key <AD04> { [ r, R, rcaron, Rcaron ] };
+  key <AD05> { [ t, T, tcaron, Tcaron ] };
+  key <AD06> { [ y, Y, yacute, Yacute ] };
+  key <AD07> { [ u, U, uacute, Uacute ] };
+  key <AD08> { [ i, I, iacute, Iacute ] };
+  key <AD09> { [ o, O, oacute, Oacute ] };
+
+  key <AC01> { [ a, A, aacute, Aacute ] };
+  key <AC02> { [ s, S, scaron, Scaron ] };
+  key <AC03> { [ d, D, dcaron, Dcaron ] };
+  key <AC04> { [ f, F, ecaron, Ecaron ] };
+  
+  key <AB01> { [ z, Z, zcaron, Zcaron ] };
+  key <AB03> { [ c, C, ccaron, Ccaron ] };
+  key <AB04> { [ v, V,  uring,  Uring ] };
+  key <AB06> { [ n, N, ncaron, Ncaron ] };
+};
